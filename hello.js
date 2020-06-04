@@ -3,3 +3,12 @@ const sayHello  = function (name) {
 }
 
 sayHello("Maria");
+
+// or
+
+const returnSayHello = function (name){
+  return "Hello, " + name;
+}
+
+const greeting = returnSayHello("Maria");
+console.log(greeting);
